@@ -4,7 +4,7 @@ export const theme: DefaultTheme = {
   colors: {
     text: '#272727',
     background: '#fff',
-    primary: '56b280',
+    primary: '#56b280',
     primaryText: '#fff',
     secondary: '#d6d6d6',
     secondaryText: '#272727',
@@ -13,5 +13,16 @@ export const theme: DefaultTheme = {
   },
   fonts: {
     raleway: 'Raleway Variable',
+  },
+  fontWghts: {
+    thin: 100,
+    extraLight: 200,
+    light: 300,
+    regular: 400,
+    medium: 500,
+    semiBold: 600,
+    bold: 700,
+    extraBold: 800,
+    black: 900,
   },
 };
